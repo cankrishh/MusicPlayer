@@ -12,7 +12,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textColor="#cecbcb"
-        android:textSize="19sp"
+        android:textSize="19dp"
         android:singleLine="true"
         />
 
@@ -21,7 +21,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textColor="#979797"
-        android:textSize="15sp" />
+        android:textSize="15dp" />
 
 
 
