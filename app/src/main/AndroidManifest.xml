@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="visa.com.musicplayer" >
 //hello this is dummy line
+
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
@@ -9,7 +10,8 @@
         android:allowBackup="true"
         android:icon="@mipmap/music"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@android:style/Theme.Holo" >
+
 
         <activity
             android:name=".Player"
