@@ -2,24 +2,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:onClick="songPicked"
-    android:padding="5dp">
+    android:layout_height="250px"
+    android:padding="5dp"
+    android:gravity="center"
+    >
 
     <TextView
         android:id="@+id/song_title"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textColor="#ff0000"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textColor="#cecbcb"
+        android:textSize="19sp"
+        android:singleLine="true"
+        />
 
     <TextView
         android:id="@+id/song_artist"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textColor="#00ff00"
-        android:textSize="18sp" />
+        android:textColor="#979797"
+        android:textSize="15sp" />
 
 
 
